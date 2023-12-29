@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+.textPart {
+  padding: 50px 0 30px 0;
+  font-family: "Nunito", sans-serif;
+  .header {
+    h2 {
+      color: #000000;
+      font-weight: 700;
+      font-size: 30px;
+    }
+    h4 {
+      font-size: 16px;
+      font-size: 16px;
+      line-height: 1.8;
+      font-weight: 400;
+      color: #999999;
+    }
+  }
+  .infos {
+    margin-top: 25px;
+    .address,
+    .email,
+    .phone {
+      p {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.5;
+        color: #212529;
+      }
+      h5 {
+        font-size: 16px;
+        line-height: 1.8;
+        font-weight: 400;
+        color: #999999;
+      }
+      span {
+        font-size: 16px;
+        line-height: 1.8;
+        font-weight: 400;
+        color: #212529;
+      }
+    }
+  }
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 30px;
+    input {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      background: #fff;
+      color: rgba(0, 0, 0, 0.8);
+      font-size: 14px;
+      outline: none;
+      &::placeholder {
+        color: #000000;
+        opacity: 0.5;
+      }
+      &:focus {
+        transition: 0.3s ease-in-out;
+        border-bottom: 1px solid #ff414d;
+      }
+    }
+    button {
+      background: #ff414d;
+      border: 1px solid #ff414d;
+      color: #fff;
+      width: 150px;
+      box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 9px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+  .followUs {
+    margin-top: 30px;
+    p {
+      font-size: 18px;
+      font-weight: 700;
+      color: #000000;
+    }
+    .apps {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+.img {
+  background-image: url('../../../assets/about.webp');
+  height: 100%;
+  min-width: 662px;
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
