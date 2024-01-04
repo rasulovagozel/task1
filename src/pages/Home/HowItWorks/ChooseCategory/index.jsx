@@ -20,7 +20,7 @@ const ChooseCategory = () => {
           flexWrap: "wrap",
         }}
       >
-        <div className="col-lg-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
           <div className={styled.card}>
             <div className={styled.image}>
               <img src={review} alt="" />
@@ -35,7 +35,7 @@ const ChooseCategory = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
           <div className={styled.card}>
             <div className={styled.image}>
               <img src={review} alt="" />
@@ -50,7 +50,7 @@ const ChooseCategory = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
           <div className={styled.card}>
             <div className={styled.image}>
               <img src={review} alt="" />
@@ -65,7 +65,7 @@ const ChooseCategory = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+        <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
           <div className={styled.card}>
             <div className={styled.image}>
               <img src={review} alt="" />

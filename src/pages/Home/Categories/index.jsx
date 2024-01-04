@@ -28,7 +28,7 @@ const Categories = () => {
         <div className="row g-0">
             <div className="col-lg-12" style={{marginTop:-80}}>
             <div className="row g-3" style={{display:'flex',flexDirection:'row',alignItems:'center',justifyContent:'center',flexWrap:'wrap'}}>
-            <div className="col-lg-2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <div className="col-lg-2 col-md-4 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                 <div className={styled.card}>
                  <img src={food} alt="" />
                  <p>Food & Drink</p>
@@ -36,77 +36,77 @@ const Categories = () => {
                  <span className='flaticon-food-and-drink'></span>
                 </div>
             </div>
-            <div className="col-lg-2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" >
+            <div className="col-lg-2 col-md-4 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" >
                 <div className={styled.card}>
                  <img src={review} alt="" />
                  <p>Hotels</p>
                  <a href=""><span>40</span> LISTINGS</a>
                 </div>
             </div>
-            <div className="col-lg-2" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+            <div className="col-lg-2 col-md-4 col-sm-12" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                 <div className={styled.card}>
                  <img src={shopping} alt="" />
                  <p>Shopping</p>
                  <a href=""><span>100</span> LISTINGS</a>
                 </div>
             </div>
-            <div className="col-lg-2" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" >
+            <div className="col-lg-2 col-md-4 col-sm-12" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" >
                 <div className={styled.card}>
                  <img src={skincare} alt="" />
                  <p>Beauty</p>
                  <a href=""><span>36</span> LISTINGS</a>
                 </div>
             </div>
-            <div className="col-lg-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+            <div className="col-lg-2 col-md-4 col-sm-12" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                 <div className={styled.card}>
                  <img src={diet} alt="" />
                  <p>Fitness</p>
                  <a href=""><span>30</span> LISTINGS</a>
                 </div>
             </div>
-            <div className="col-lg-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+            <div className="col-lg-2 col-md-4 col-sm-12" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                 <div className={styled.card}>
                  <img src={club} alt="" />
                  <p>Bar & Club</p>
                  <a href=""><span>12</span> LISTINGS</a>
                 </div>
             </div>
-            <div className="col-lg-2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <div className="col-lg-2 col-md-4 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                 <div className={styled.card}>
                  <img src={joystick} alt="" />
                  <p>Games</p>
                  <a href=""><span>103</span> LISTINGS</a>
                 </div>
             </div>
-            <div className="col-lg-2" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+            <div className="col-lg-2 col-md-4 col-sm-12" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                 <div className={styled.card}>
                  <img src={point} alt="" />
                  <p>Places</p>
                  <a href=""><span>40</span> LISTINGS</a>
                 </div>
             </div>
-            <div className="col-lg-2" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div className="col-lg-2 col-md-4 col-sm-12" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                 <div className={styled.card}>
                  <img src={circus} alt="" />
                  <p>Circus</p>
                  <a href=""><span>100</span> LISTINGS</a>
                 </div>
             </div>
-            <div className="col-lg-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+            <div className="col-lg-2 col-md-4 col-sm-12" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                 <div className={styled.card}>
                  <img src={cinema} alt="" />
                  <p>Theater</p>
                  <a href=""><span>36</span> LISTINGS</a>
                 </div>
             </div>
-            <div className="col-lg-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+            <div className="col-lg-2 col-md-4 col-sm-12" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                 <div className={styled.card}>
                  <img src={sport} alt="" />
                  <p>Sport</p>
                  <a href=""><span>30</span> LISTINGS</a>
                 </div>
             </div>
-            <div className="col-lg-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+            <div className="col-lg-2 col-md-4 col-sm-12" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                 <div className={styled.card}>
                  <img src={healthy} alt="" />
                  <p>Health</p>

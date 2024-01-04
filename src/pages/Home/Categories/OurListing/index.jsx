@@ -34,7 +34,7 @@ const OurListing = () => {
         </div>
         <div className="col-lg-12">
           <div className="row g-3">
-            <div className="col-lg-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <div className={styled.card}>
                 <div className={styled.img}>
                   <img src={image1} alt="" />
@@ -63,7 +63,7 @@ const OurListing = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <div className={styled.card}>
                 <div className={styled.img}>
                   <img src={image2} alt="" />
@@ -92,7 +92,7 @@ const OurListing = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <div className={styled.card}>
                 <div className={styled.img}>
                   <img src={image3} alt="" />
@@ -121,7 +121,7 @@ const OurListing = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <div className={styled.card}>
                 <div className={styled.img}>
                   <img src={image4} alt="" />
@@ -150,7 +150,7 @@ const OurListing = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <div className={styled.card}>
                 <div className={styled.img}>
                   <img src={image5} alt="" />
@@ -179,7 +179,7 @@ const OurListing = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <div className={styled.card}>
                 <div className={styled.img}>
                   <img src={image6} alt="" />
@@ -208,7 +208,7 @@ const OurListing = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <div className={styled.card}>
                 <div className={styled.img}>
                   <img src={image7} alt="" />
@@ -237,7 +237,7 @@ const OurListing = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
               <div className={styled.card}>
                 <div className={styled.img}>
                   <img src={image8} alt="" />
